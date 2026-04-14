@@ -1,8 +1,9 @@
 ﻿# Paper Agent
 
 > 一个为“读论文”而设计的本地智能体：先帮你找到值得读的论文，再把你真正关心的那篇讲明白。
-
 ---
+![Figure 1](figure/figure1.png)
+![Figure 2](figure/figure2.png)
 
 ## ✨ 项目定位（Why This Project?）
 
