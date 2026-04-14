@@ -1,4 +1,4 @@
-﻿# Paper Agent
+﻿# PaperChat
 
 > 一个为“读论文”而设计的本地智能体：先帮你找到值得读的论文，再把你真正关心的那篇讲明白。
 ---
@@ -11,7 +11,7 @@
 - 检索阶段：给出很多标题，但难以快速比较“哪篇更值得读”，且存在”幻觉“问题，许多虚假论文
 - 问答阶段：RAG 直接回答，证据不足时容易出现低置信度结论
 
-**Paper Agent** 通过多Agent协作把“找到论文 + 读懂论文”这两步做得更可靠、更顺手。
+**PaperChat** 通过多Agent协作把“找到论文 + 读懂论文”这两步做得更可靠、更顺手。
 
 ---
 
@@ -60,7 +60,7 @@
 ## 📁 项目结构（Project Structure）
 
 ```text
-Paper_Agent/
+PaperChat/
 ├─ app.py
 ├─ .chainlit/config.toml
 └─ src/
@@ -88,7 +88,7 @@ pip install chainlit langgraph langchain langchain-openai langchain-chroma langc
 $env:DEEPSEEK_API_KEY="your_deepseek_key"
 $env:DEEPSEEK_BASE_URL="https://api.deepseek.com"
 $env:DEEPSEEK_MODEL="deepseek-chat"
-$env:EMBEDDING_LOCAL_DIR="<your project>\Paper_Agent\models\bge-m3"
+$env:EMBEDDING_LOCAL_DIR="<your project>\PaperChat\models\bge-m3"
 ```
 
 ### 3. 启动
